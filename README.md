@@ -52,6 +52,6 @@ Note that you need to specify the number of concepts/skills in advance. If you d
 
 ## Reproducing the results in the paper
 
-To reproduce the experimental results in the paper, you can run the two notebooks `eedi_experiment-Qlearning.ipynb` and `eedi_experiment-fixedQ.ipynb`. The former ones performs the actual Q matrix learning, whereas the latter one uses a fixed Q matrix, specified by an expert. You can find the expert-specified Q matrix in the file `eedi_q_matrix.csv`.
+To reproduce the experimental results in the paper, you can run the notebooks `synthetic_experiment_Qlearning.ipynb`, `eedi_experiment-Qlearning.ipynb`, and `eedi_experiment-fixedQ.ipynb`. The former ones perform the actual Q matrix learning, whereas the latter one uses a fixed Q matrix, specified by an expert. You can find the expert-specified Q matrix in the file `eedi_q_matrix.csv`.
 
 Important! To run the notebooks, you need to download the NeurIPS 2020 education challenge data set. You can find this data set at [this link](https://eedi.com/projects/neurips-education-challenge). The notebooks expect the data to be located in a folder called `eedi_data`.
